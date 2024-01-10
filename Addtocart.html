@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dealership</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+
+      <a href="#" class="logo">
+        <ion-icon name="fast-food"></ion-icon>
+        Online Car Dealership
+      </a>
+
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+<!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">Discover the Best Cars</h2>
+    <div class="shop-content">
+
+
+      <div class="food-box">
+        <div class="pic">
+          <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/families-gallery/2023/revuelto/revuelto_m.png" class="food-img">
+        </div>
+        <h2 class="food-title">Lamborghini</h2>
+        <span class="food-price">Rs.24830000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+
+      <div class="food-box">
+        <div class="pic"><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Ferrari/F8-Tributo/7945/1598599471404/front-left-side-47.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrari</h2>
+        <span class="food-price">Rs.42981000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="https://www.hrowen.life/wp-content/uploads/2022/10/P90483624_highRes_spectre-unveiled-the-scaled.jpg" class="food-img"></div>
+        <h2 class="food-title">Rolls Royce</h2>
+        <span class="food-price">Rs.45000000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200707011041_Mustang-1.jpg&w=700&q=90&c=1" class="food-img"></div>
+        <h2 class="food-title">Ford Mustang</h2>
+        <span class="food-price">Rs.44090000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="https://media.cnn.com/api/v1/images/stellar/prod/160301104845-chiron-2.jpg?q=w_1600,h_900,x_0,y_0,c_fill" class="food-img"></div>
+        <h2 class="food-title">Bugatti</h2>
+        <span class="food-price">Rs.300000000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="https://m.media-amazon.com/images/I/61uHBHLgYzL._AC_UF894,1000_QL80_.jpg" class="food-img"></div>
+        <h2 class="food-title">Koenigsegg</h2>
+        <span class="food-price">Rs.400000000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F04%2F1997-toyota-supra-mkiv-automatic-jdm-japanese-classic-sportscar-sold-bring-a-trailer-auction-0.jpg?fit=max&cbr=1&q=90&w=750&h=500" class="food-img"></div>
+        <h2 class="food-title">Toyota Supra</h2>
+        <span class="food-price">Rs.43540000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202301/images_3_9-sixteen_nine.jpeg?VersionId=fU30aJ8VMhnPrWNgc9j1QQ4KFK3TFpRW" class="food-img"></div>
+        <h2 class="food-title">Mercedes Benz</h2>
+        <span class="food-price">Rs.27035000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+
+
+
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
